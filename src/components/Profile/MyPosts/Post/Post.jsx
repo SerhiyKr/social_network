@@ -7,9 +7,7 @@ const Post = () => {
             <div className={s.item}>
                 <img src='https://www.meme-arsenal.com/memes/c651160ee5a293f357522fdd83ddbf64.jpg'></img>
                 post 1
-                <div>
-                    <span>like</span>
-                </div>
+ 
             </div>
         </div>
     )

@@ -20,11 +20,11 @@ let store = {
             ]
         }
     },
-    getState() {
-      return this._state;
-    },
     _callSubscriber() {
         console.log("State changed");
+    },
+    getState() {
+      return this._state;
     },
     addPost() {
         let newPost = {

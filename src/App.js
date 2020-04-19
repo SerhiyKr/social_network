@@ -24,7 +24,10 @@ const App = (props) => {
                            />} />
                     <Route exact path='/dialogs'
                            render={ () => <Dialogs
-                               state={props.state.dialogsPage} />} />
+                               state={props.state.dialogsPage}
+                               newMessageBody={props.state.newMessageBody}
+                               dispatch={props.dispatch}
+                           />} />
                     <Route exact path='/news'
                            render={ () => <News/>}/>
                     <Route exact path='/music'
